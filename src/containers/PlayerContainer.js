@@ -10,6 +10,8 @@ import {
 } from "../actionCreators";
 import { getCurrentSong } from "../selectors";
 
+soundManager.debugMode = false;
+
 class PlayerContainer extends Component {
   theRef = createRef();
   // state = { position: 0 };
