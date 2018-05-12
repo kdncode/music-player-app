@@ -19,7 +19,7 @@ const SeekBar = props => (
       thumbSize="20px"
       thumbColor={props.theme.colors.blue}
       thumbBorder="4px solid white"
-      thumbShadow={`0 0 8px ${rgba(props.theme.colors.blue, 0.38)}`}
+      thumbShadow={`0 0 8px ${rgba(props.theme.colors.primary, 0.38)}`}
     />
   </SeekBarWrapper>
 );

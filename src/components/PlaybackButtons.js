@@ -30,7 +30,7 @@ const Button = styled.button`
       return css`
         :active [class="next-button-path"],
         :active [class="previous-button-path"] {
-          fill: ${theme.colors.blue};
+          fill: ${theme.colors.primary};
         }
       `;
     }
@@ -38,7 +38,7 @@ const Button = styled.button`
 
   :active [class="play-button-path"],
   :active [class="pause-button-path"] {
-    fill: ${({ theme }) => theme.colors.blue};
+    fill: ${({ theme }) => theme.colors.primary};
   }
 `;
 
