@@ -40,7 +40,11 @@ class PlayerContainer extends Component {
           }}
           onFinishedPlaying={() => {
             const idx = playlist.findIndex(song => song.id === currentSong.id);
-            changeSong(playlist[idx + 1].id);
+            if (idx + 1 === playlist.length) {
+              changeSong(playlist[0].id);
+            } else {
+              changeSong(playlist[idx + 1].id);
+            }
           }}
         />
       );
