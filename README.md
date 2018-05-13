@@ -1,15 +1,18 @@
-# Music Player
+# Music player web app
 
-A web music player made using React + Redux.
+A web music player made using React, Redux, Styled Components and React Sound.
 
-# Run
+# Install and run
 
+```sh
+# using npm
+npm i && npm start
+
+# using yarn
+yarn && yarn start
 ```
-npm i | yarn
-npm start | yarn start
-```
 
-The app should be available on port 8080.
+The app is supposed to be available on port 8080.
 
 # Screenshots
 
